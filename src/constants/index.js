@@ -23,7 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets"
+} from "../assets";
 
 export const navLinks = [
   {
@@ -38,7 +38,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-]
+];
 
 const services = [
   {
@@ -57,7 +57,7 @@ const services = [
     title: "Content Creator",
     icon: creator,
   },
-]
+];
 
 const technologies = [
   {
@@ -112,7 +112,7 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-]
+];
 
 const experiences = [
   {
@@ -167,7 +167,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-]
+];
 
 const testimonials = [
   {
@@ -194,7 +194,7 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
-]
+];
 
 const projects = [
   {
@@ -260,6 +260,6 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
-]
+];
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects };
