@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import frontend from "./frontend.png";
 import web from "./web.png";
-import link from "./web.svg";
+import link from "./globe.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import express from "./tech/express.svg";
 import next from "./tech/nextjs.svg";
+import appwrite from "./tech/appwrite.svg";
 import storybook from "./tech/storybook.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +38,7 @@ import galacticpawn from "./galacticpawn.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import smartbrain from "./smartbrain.jpg";
+import moviewatchlist from "./moviewatchlist.jpg";
 
 export {
   logo,
@@ -64,6 +66,7 @@ export {
   express,
   next,
   storybook,
+  appwrite,
   meta,
   shopify,
   starbucks,
@@ -76,4 +79,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  moviewatchlist,
 };
