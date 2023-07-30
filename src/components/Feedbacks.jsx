@@ -21,8 +21,8 @@ const FeedbackCard = ({
     <div className="mt-1 ">
       <p className="text-[18px] tracking-wider text-white">{testimonial}</p>
 
-      <div className="mt-7 flex items-center justify-between gap-1">
-        <div className="flex flex-1 flex-col">
+      <div className="flex items-center justify-between gap-1 mt-7">
+        <div className="flex flex-col flex-1">
           <p className="text-[16px] font-medium text-white">
             <span className="blue-text-gradient">@</span> {name}
           </p>
@@ -33,7 +33,7 @@ const FeedbackCard = ({
         <img
           src={image}
           alt={`feedback_by-${name}`}
-          className="h-10 w-10 rounded-full object-cover"
+          className="object-cover w-10 h-10 rounded-full"
         />
       </div>
     </div>
