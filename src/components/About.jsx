@@ -1,5 +1,5 @@
 import React from "react";
-import { Tilt } from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -16,7 +16,7 @@ const ServiceCard = ({ index, title, icon }) => {
           options={{ max: 45, scale: 1, speed: 450 }}
           className="flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] bg-tertiary px-12 py-5"
         >
-          <img src={icon} alt={title} className="h-16 w-16 object-contain" />
+          <img src={icon} alt={title} className="object-contain w-16 h-16" />
           <h3 className="text-center text-[20px] font-bold text-white">
             {title}
           </h3>
@@ -34,7 +34,7 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 max-w-3xl text-[17px] leading-[30px] text-secondary"
+        className="mt-4 max-w-5xl text-[17px] leading-[30px] text-secondary"
       >
         I'm a seasoned mechanical design engineer with 8 years of experience in
         the exciting field of 3D printing. However, I have recently embarked on
@@ -49,7 +49,7 @@ const About = () => {
         career in web development, and I firmly believe that the perfect
         opportunity, whether local or remote, is just around the corner.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="flex flex-wrap gap-10 mt-20">
         {services.map((service, index) => {
           return <ServiceCard key={service.title} index={index} {...service} />;
         })}
