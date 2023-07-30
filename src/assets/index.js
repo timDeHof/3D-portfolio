@@ -1,8 +1,9 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
-import mobile from "./mobile.png";
+import frontend from "./frontend.png";
 import web from "./web.png";
+import link from "./web.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -20,22 +21,30 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import express from "./tech/express.svg";
+import next from "./tech/nextjs.svg";
+import storybook from "./tech/storybook.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import unf from "./company/unf.svg";
+import polyhistor from "./company/polyhistor.png";
+import fullstack from "./company/fullstack.png";
 
 import carrent from "./carrent.png";
+import galacticpawn from "./galacticpawn.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import smartbrain from "./smartbrain.jpg";
 
 export {
   logo,
   backend,
   creator,
-  mobile,
+  frontend,
   web,
+  link,
   github,
   menu,
   close,
@@ -52,10 +61,18 @@ export {
   tailwind,
   typescript,
   threejs,
+  express,
+  next,
+  storybook,
   meta,
   shopify,
   starbucks,
   tesla,
+  unf,
+  polyhistor,
+  fullstack,
+  galacticpawn,
+  smartbrain,
   carrent,
   jobit,
   tripguide,
