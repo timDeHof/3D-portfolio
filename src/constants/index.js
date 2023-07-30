@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  appwrite,
   redux,
   tailwind,
   nodejs,
@@ -31,6 +32,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  moviewatchlist,
 } from "../assets";
 
 export const navLinks = [
@@ -62,75 +64,98 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Blogger",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    heading: "Frontend",
+    subHeading: "My bread and butter.",
+    tech: [
+      {
+        name: "Next JS",
+        icon: next,
+      },
+      {
+        name: "React JS",
+        icon: reactjs,
+      },
+      {
+        name: "HTML 5",
+        icon: html,
+      },
+      {
+        name: "CSS 3",
+        icon: css,
+      },
+      {
+        name: "JavaScript",
+        icon: javascript,
+      },
+      {
+        name: "TypeScript",
+        icon: typescript,
+      },
+
+      {
+        name: "Redux Toolkit",
+        icon: redux,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: tailwind,
+      },
+      {
+        name: "Three JS",
+        icon: threejs,
+      },
+    ],
   },
   {
-    name: "CSS 3",
-    icon: css,
+    heading: "Backend",
+    subHeading: "Aspiring, but not my strongest suit.",
+    tech: [
+      {
+        name: "Node JS",
+        icon: nodejs,
+      },
+      {
+        name: "express",
+        icon: express,
+      },
+      {
+        name: "MongoDB",
+        icon: mongodb,
+      },
+      {
+        name: "Appwrite.io",
+        icon: appwrite,
+      },
+    ],
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "express",
-    icon: express,
-  },
-  {
-    name: "next",
-    icon: next,
-  },
-  {
-    name: "storybook",
-    icon: storybook,
+    heading: "Tools & Platforms",
+    subHeading: "Favorite kits to get things done",
+    tech: [
+      {
+        name: "git",
+        icon: git,
+      },
+      {
+        name: "figma",
+        icon: figma,
+      },
+      {
+        name: "docker",
+        icon: docker,
+      },
+      {
+        name: "storybook",
+        icon: storybook,
+      },
+    ],
   },
 ];
 
@@ -164,7 +189,7 @@ const experiences = [
     company_name: "Polyhistor International",
     icon: polyhistor,
     iconBg: "#E6DEDD",
-    date: "Jan 2014 - Jan 2022",
+    date: "Feb 2014 - Jan 2022",
     points: [
       "Achieved a 28% decrease in production costs within 4 months by optimizing machine efficiency and streamlining processes.",
       "Improved 3D printing efficiency by 15% within 6 months through effective optimization of design and manufacturing processes.",
@@ -262,28 +287,30 @@ const projects = [
       },
     ],
     image: smartbrain,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/timDeHof/facerecognitionbrain",
+    demo_link: "https://big-smart-brain.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Movie Watchlist",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive movie watchlist platform that allows users to search for movies, tv shows, and save them to there personal watchlist",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "appwrite",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: moviewatchlist,
+    source_code_link: "https://github.com/timDeHof/movie-nextjs-app",
+    demo_link: "https://reelwatch.vercel.app/",
   },
 ];
 
