@@ -22,9 +22,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import express from "./tech/express.svg";
+import cypress from "./tech/cypress.svg";
 import next from "./tech/nextjs.svg";
 import appwrite from "./tech/appwrite.svg";
 import storybook from "./tech/storybook.svg";
+import jest from "./tech/jest.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -63,10 +65,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  cypress,
   express,
   next,
   storybook,
   appwrite,
+  jest,
   meta,
   shopify,
   starbucks,

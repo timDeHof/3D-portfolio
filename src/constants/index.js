@@ -19,8 +19,10 @@ import {
   express,
   next,
   storybook,
+  cypress,
   meta,
   starbucks,
+  jest,
   tesla,
   shopify,
   unf,
@@ -152,8 +154,16 @@ const technologies = [
         icon: docker,
       },
       {
+        name: "Cypress.io",
+        icon: cypress,
+      },
+      {
         name: "storybook",
         icon: storybook,
+      },
+      {
+        name: "Jest",
+        icon: jest,
       },
     ],
   },
