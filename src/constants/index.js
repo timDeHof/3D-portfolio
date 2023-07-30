@@ -1,5 +1,5 @@
 import {
-  mobile,
+  frontend,
   backend,
   creator,
   web,
@@ -15,10 +15,18 @@ import {
   git,
   figma,
   docker,
+  express,
+  next,
+  storybook,
   meta,
   starbucks,
   tesla,
   shopify,
+  unf,
+  polyhistor,
+  fullstack,
+  galacticpawn,
+  smartbrain,
   carrent,
   jobit,
   tripguide,
@@ -46,8 +54,8 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Frontend Developer",
+    icon: frontend,
   },
   {
     title: "Backend Developer",
@@ -112,59 +120,70 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "express",
+    icon: express,
+  },
+  {
+    name: "next",
+    icon: next,
+  },
+  {
+    name: "storybook",
+    icon: storybook,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "College Student",
+    company_name: "University of North Florida",
+    icon: unf,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2007 - December 2011",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Graduated with a Bachelors of science in Mechanical Engineering.",
+      "Secured a cumulative GPA of 3.26",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Mechanical Technician",
+    company_name: "Polyhistor International",
+    icon: polyhistor,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2012 - Feb 2014",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Demonstrated proficiency in visual and basic measurement inspection of parts, ensuring conformity to specifications and detecting defect ",
+      "Developed and implemented process improvements in the Prototype Shop, increasing efficiency by 25% in 6 months.",
+      "Gained valuable experience in the operation of advanced manufacturing technology, including running jobs on the Objet Eden 260v Rapid Prototype machine.",
+      "Demonstrated strong communication, teamwork, built prototypes, assembled wire harnesses, leading to promotion as a mechanical design engineer.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Mechanical Design Engineer",
+    company_name: "Polyhistor International",
+    icon: polyhistor,
+    iconBg: "#E6DEDD",
+    date: "Jan 2014 - Jan 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Achieved a 28% decrease in production costs within 4 months by optimizing machine efficiency and streamlining processes.",
+      "Improved 3D printing efficiency by 15% within 6 months through effective optimization of design and manufacturing processes.",
+      "Reduced production costs by 10% in 1 month through optimization of materials and processes utilizing 3D printing technology.",
+      "Managed 3D printing projects with Stratasys and FormLabs software, overseeing prep, execution, and post-processing for clients. Utilized Polyjet, FDM, and SLA technologies.",
+      "Improved production efficiency by 15% through the implementation of a 3D printing project management tool using Microsoft Excel and VBA",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "Fullstack Academy Coding Bootcamp",
+    icon: fullstack,
+    iconBg: "#383E56",
+    date: "Feb 2022 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficient in full-stack web development, including front-end and back-end skills, through immersive training in programming languages like JavaScript, HTML, CSS, and frameworks such as React and Node.js.",
+      "Provided code review feedback to my team members and executed a successful Fullstack website",
+      "Built a full-stack e-commerce website that can handle and integrate routes, PostgreSQL, database, and 0auth.",
+      "The website included a login and register page, as well as a main store page that allows users to create an account and add items to their cart.",
     ],
   },
 ];
@@ -198,30 +217,36 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Galactic Pawn",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Ecommerce web-based site that allows users to register, search , add, and manage items in a shopping cart, providing a convenient and efficient solution for galactic needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "postgres",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: galacticpawn,
+    source_code_link:
+      "https://github.com/PawnShop-at-the-end-of-the-galaxy/PawnShop-Galaxy",
+    demo_link: "https://capstone-galactic-pawn.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "smart brain",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to upload an image URL and by using machine-learning be able to detect the faces within the image.",
     tags: [
       {
         name: "react",
@@ -232,11 +257,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: smartbrain,
     source_code_link: "https://github.com/",
   },
   {
