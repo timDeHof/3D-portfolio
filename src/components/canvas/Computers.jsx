@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useMemo, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -6,9 +6,15 @@ import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  const scale = useMemo(() => (isMobile ? 0.7 : 0.75), [isMobile]);
+  const position = useMemo(
+    () => (isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]),
+    [isMobile],
+  );
+
   return (
     <mesh>
-      <hemisphereLight intensity={2.3} groundColor="black" />
+      <hemisphereLight skyColor="white" intensity={2.3} groundColor="black" />
 
       <spotLight
         position={[-20, 50, 10]}
@@ -16,13 +22,13 @@ const Computers = ({ isMobile }) => {
         penumbra={1}
         intensity={1}
         castShadow
-        shadow-MapSize={1024}
+        shadowMapSize={1024}
       />
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        scale={scale}
+        position={position}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
